@@ -1,0 +1,49 @@
+.App {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkslateblue;
+    height: 100vh;
+}
+
+.main {
+    border: 2px solid #00e1ff;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.mainDisplay {
+    text-align: center;
+    border: 2px solid #00e1ff;
+    padding: 20px;
+    margin: 20px;
+    font-size: 50px;
+    border-radius: 10px;
+}
+
+.settings {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 2px solid #00e1ff;
+    padding: 20px;
+    margin: 20px;
+    font-size: 50px;
+    border-radius: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    border: 2px solid #00e1ff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+
+    & button {
+        font-size: 50px;
+        border-radius: 10px;
+
+    }
+}

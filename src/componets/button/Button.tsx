@@ -8,7 +8,6 @@ type ButtonPropsType = {
 export const Button: React.FC<ButtonPropsType> = (props) => {
     return <div>
         <button
-            className={'button'}
             disabled={props.disabled}
             onClick={props.btnClick}>
             {props.title}
